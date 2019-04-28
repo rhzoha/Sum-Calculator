@@ -22,18 +22,15 @@
                     </v-text-field>
                     <v-text-field 
                       type="number" 
-                      v-model.number="item.quantity" 
-                      min="1"
-                      label="Quantity"
+                      v-model.number="item.price" 
+                      label="Price"
                       >
                     </v-text-field>
                     <v-text-field 
                       type="number" 
-                      v-model.number="item.price" 
-                      min="0.00" 
-                      max="1000000000.00" 
-                      step="0.01"
-                      label="Unit Price"
+                      v-model.number="item.quantity" 
+                      min="1"
+                      label="Quantity"
                       >
                     </v-text-field>
                     <v-text-field 
